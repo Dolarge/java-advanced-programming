@@ -13,12 +13,20 @@ public class ObjectTest04 {
 
 		System.out.println("=======================================");
 		
-		String s3 = "ABC"; // => new String("ABC");
-		String s4 = "ABC"; // => new String("ABC");
+		Boolean b = true;
+		Integer i = 10;
+		
+		String s3 = "ABC"; // => new String("ABC");O
+		String s4 = "ABC"; // => new String("ABC"); X
 		System.out.println(s3 == s4);
 		System.out.println(s3.equals(s4));
 		System.out.println(s3.hashCode() + ":" + s4.hashCode());
 		System.out.println(System.identityHashCode(s3) + ":" + System.identityHashCode(s4));
-
+		
+		String s5 = "Hello"; // new String("Hello")
+		
+		
+		String str = "Hello"
+		
 	}
 }
