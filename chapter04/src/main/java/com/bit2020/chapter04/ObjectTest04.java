@@ -24,9 +24,5 @@ public class ObjectTest04 {
 		System.out.println(System.identityHashCode(s3) + ":" + System.identityHashCode(s4));
 		
 		String s5 = "Hello"; // new String("Hello")
-		
-		
-		String str = "Hello"
-		
 	}
 }
